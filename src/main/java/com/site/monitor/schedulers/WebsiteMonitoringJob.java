@@ -1,17 +1,16 @@
 package com.site.monitor.schedulers;
 
 import com.site.monitor.http.RestHttpService;
+import com.site.monitor.logger.WebsiteResponseLogger;
+import com.site.monitor.model.RestApiResponse;
 import com.site.monitor.service.ContentVerifier;
-import com.site.monitor.service.interfaces.HttpService;
-import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import org.quartz.DisallowConcurrentExecution;
 import org.quartz.Job;
 import org.quartz.JobExecutionContext;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
-
-import java.util.Optional;
+import org.springframework.stereotype.Service;
 
 /**
  * WebsiteMonitorJob is a Quartz Job which will be executed by the scheduler.
@@ -24,13 +23,16 @@ public class WebsiteMonitoringJob implements Job {
     @Autowired private RestHttpService httpService;
     @Autowired private ContentVerifier contentVerifier;
 
+    @Autowired private WebsiteResponseLogger websiteResponseLogger;
+
     @Override
     public void execute(final JobExecutionContext context) {
         String url = context.getMergedJobDataMap().getString("url");
         String contentRequirement = context.getMergedJobDataMap().getString("contentRequirement");
-        Optional<String> response = httpService.makeGetCall(url, String.class);
-        //TODO: response.get with null check
-        boolean isContentVerified = contentVerifier.isContentVerified(response.get(), contentRequirement);
-        log.info("Website {} is {}", url, isContentVerified ? "UP" : "DOWN");
+
+        RestApiResponse response = httpService.makeGetCall(url);
+        boolean isContentVerified = contentVerifier.isContentVerified(response.getData(), contentRequirement);
+        boolean isWebsiteUp = response.getStatusCode() == 200;
+        websiteResponseLogger.log(response, isContentVerified, isWebsiteUp);
     }
 }

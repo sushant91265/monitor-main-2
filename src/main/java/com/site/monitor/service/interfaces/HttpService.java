@@ -1,7 +1,7 @@
 package com.site.monitor.service.interfaces;
 
-import java.util.Optional;
+import com.site.monitor.model.RestApiResponse;
 
 public interface HttpService {
-    <T> Optional<T> makeGetCall(String url, Class<T> responseCls);
+     RestApiResponse makeGetCall(String url);
 }

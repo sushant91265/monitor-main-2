@@ -1,28 +1,39 @@
 package com.site.monitor.http;
 
+import com.site.monitor.model.RestApiResponse;
 import com.site.monitor.service.interfaces.HttpService;
 import lombok.RequiredArgsConstructor;
+import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpMethod;
-import org.springframework.http.HttpStatusCode;
 import org.springframework.http.ResponseEntity;
 import org.springframework.stereotype.Service;
+import org.springframework.web.client.HttpClientErrorException;
+import org.springframework.web.client.RestClientException;
 import org.springframework.web.client.RestTemplate;
 
-import java.util.Optional;
-
 @Service
+@Slf4j
 @RequiredArgsConstructor(onConstructor_ = @Autowired)
 public class RestHttpService implements HttpService {
     private final RestTemplate restTemplate;
 
-    public <T> Optional<T> makeGetCall(String url, Class<T> cls) {
-        ResponseEntity<T>  responseEntity = restTemplate.exchange(url, HttpMethod.GET, null, cls);
-        HttpStatusCode statusCode = responseEntity.getStatusCode();
-        //TODO: handle 3xx, 4xx, 5xx
-        if(!statusCode.is2xxSuccessful()) {
-            return Optional.empty();
+    public RestApiResponse makeGetCall(String url) {
+        var responseBuilder = RestApiResponse.builder().url(url);
+        long startTime = System.currentTimeMillis();
+        try {
+            ResponseEntity<String>  responseEntity = restTemplate.exchange(url, HttpMethod.GET, null, String.class);
+            responseBuilder.statusCode(responseEntity.getStatusCode().value());
+            responseBuilder.data(responseEntity.getBody());
+        } catch (RestClientException exception) {
+//            log.error("Error while making GET call to {}", url, exception);
+            responseBuilder.statusCode(500);
+            responseBuilder.message(exception.getMessage());
+        } finally {
+            long endTime = System.currentTimeMillis();
+            responseBuilder.rttInMs(endTime - startTime);
         }
-        return Optional.ofNullable(responseEntity.getBody());
+        return responseBuilder.build();
+
     }
 }

@@ -1,9 +1,33 @@
 {
   "websites": [
     {
+      "id": "1",
+      "url": "http://www.foobar.com/login",
+      "content_requirement": "Please contact",
+      "check_interval_seconds": 5
+    },
+    {
+      "id": "2",
+      "url": "http://www.example.com",
+      "content_requirement": "Example Domain",
+      "check_interval_seconds": 10
+    },
+    {
       "id": "3",
-      "url": "https://www.youtube.com",
-      "content_requirement": "youtube"
+      "url": "https://www.youtube",
+      "content_requirement": "India"
+    },
+    {
+      "id": "4",
+      "url": "https://www.indiapost.gov.in/_layouts/15/dop.portal.tracking/trackconsignment.aspx",
+      "content_requirement": "High Loading time",
+      "check_interval_seconds": 20
+    },
+    {
+      "id": "5",
+      "url": "https://this-website-does-not-exist.com",
+      "content_requirement": "Can't connect",
+      "check_interval_seconds": 30
     }
   ],
   "default_check_interval_seconds": 10

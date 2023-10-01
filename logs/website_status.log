@@ -1,0 +1,1108 @@
+2023-10-01 19:00:34,417 - WebsiteResponseLog(url=https://www.youtube, status=false, message=I/O error on GET request for "https://www.youtube": www.youtube, responseTimeInSeconds=0)
+2023-10-01 19:00:34,459 - WebsiteResponseLog(url=http://www.example.com, status=true, message=null, responseTimeInSeconds=0)
+2023-10-01 19:00:34,463 - WebsiteResponseLog(url=http://www.foobar.com/login, status=false, message=403 Forbidden: "<html><head><title>Error 403 - Forbidden</title><head><body><h1>Error 403 - Forbidden</h1><p>You don't have permission to access the requested resource. Please contact the web site owner for further assistance.</p></body></html>", responseTimeInSeconds=0)
+2023-10-01 19:00:36,518 - WebsiteResponseLog(url=https://www.indiapost.gov.in/_layouts/15/dop.portal.tracking/trackconsignment.aspx, status=false, message=null, responseTimeInSeconds=2)
+2023-10-01 19:00:39,365 - WebsiteResponseLog(url=http://www.foobar.com/login, status=false, message=403 Forbidden: "<html><head><title>Error 403 - Forbidden</title><head><body><h1>Error 403 - Forbidden</h1><p>You don't have permission to access the requested resource. Please contact the web site owner for further assistance.</p></body></html>", responseTimeInSeconds=0)
+2023-10-01 19:00:44,164 - WebsiteResponseLog(url=https://www.youtube, status=false, message=I/O error on GET request for "https://www.youtube": www.youtube, responseTimeInSeconds=0)
+2023-10-01 19:00:44,351 - WebsiteResponseLog(url=http://www.foobar.com/login, status=false, message=403 Forbidden: "<html><head><title>Error 403 - Forbidden</title><head><body><h1>Error 403 - Forbidden</h1><p>You don't have permission to access the requested resource. Please contact the web site owner for further assistance.</p></body></html>", responseTimeInSeconds=0)
+2023-10-01 19:00:44,367 - WebsiteResponseLog(url=http://www.example.com, status=true, message=null, responseTimeInSeconds=0)
+2023-10-01 19:00:49,360 - WebsiteResponseLog(url=http://www.foobar.com/login, status=false, message=403 Forbidden: "<html><head><title>Error 403 - Forbidden</title><head><body><h1>Error 403 - Forbidden</h1><p>You don't have permission to access the requested resource. Please contact the web site owner for further assistance.</p></body></html>", responseTimeInSeconds=0)
+2023-10-01 19:00:54,162 - WebsiteResponseLog(url=https://www.youtube, status=false, message=I/O error on GET request for "https://www.youtube": www.youtube, responseTimeInSeconds=0)
+2023-10-01 19:00:54,363 - WebsiteResponseLog(url=http://www.foobar.com/login, status=false, message=403 Forbidden: "<html><head><title>Error 403 - Forbidden</title><head><body><h1>Error 403 - Forbidden</h1><p>You don't have permission to access the requested resource. Please contact the web site owner for further assistance.</p></body></html>", responseTimeInSeconds=0)
+2023-10-01 19:00:54,375 - WebsiteResponseLog(url=http://www.example.com, status=true, message=null, responseTimeInSeconds=0)
+2023-10-01 19:00:56,014 - WebsiteResponseLog(url=https://www.indiapost.gov.in/_layouts/15/dop.portal.tracking/trackconsignment.aspx, status=false, message=null, responseTimeInSeconds=1)
+2023-10-01 19:00:59,360 - WebsiteResponseLog(url=http://www.foobar.com/login, status=false, message=403 Forbidden: "<html><head><title>Error 403 - Forbidden</title><head><body><h1>Error 403 - Forbidden</h1><p>You don't have permission to access the requested resource. Please contact the web site owner for further assistance.</p></body></html>", responseTimeInSeconds=0)
+2023-10-01 19:01:04,165 - WebsiteResponseLog(url=https://www.youtube, status=false, message=I/O error on GET request for "https://www.youtube": www.youtube, responseTimeInSeconds=0)
+2023-10-01 19:01:04,361 - WebsiteResponseLog(url=http://www.foobar.com/login, status=false, message=403 Forbidden: "<html><head><title>Error 403 - Forbidden</title><head><body><h1>Error 403 - Forbidden</h1><p>You don't have permission to access the requested resource. Please contact the web site owner for further assistance.</p></body></html>", responseTimeInSeconds=0)
+2023-10-01 19:01:04,374 - WebsiteResponseLog(url=http://www.example.com, status=true, message=null, responseTimeInSeconds=0)
+2023-10-01 19:01:09,382 - WebsiteResponseLog(url=http://www.foobar.com/login, status=false, message=403 Forbidden: "<html><head><title>Error 403 - Forbidden</title><head><body><h1>Error 403 - Forbidden</h1><p>You don't have permission to access the requested resource. Please contact the web site owner for further assistance.</p></body></html>", responseTimeInSeconds=0)
+2023-10-01 19:02:18,155 - WebsiteResponseLog(url=https://www.youtube, status=false, message=I/O error on GET request for "https://www.youtube": www.youtube, responseTimeInMs=236)
+2023-10-01 19:02:18,203 - WebsiteResponseLog(url=http://www.example.com, status=true, message=null, responseTimeInMs=290)
+2023-10-01 19:02:18,206 - WebsiteResponseLog(url=http://www.foobar.com/login, status=false, message=403 Forbidden: "<html><head><title>Error 403 - Forbidden</title><head><body><h1>Error 403 - Forbidden</h1><p>You don't have permission to access the requested resource. Please contact the web site owner for further assistance.</p></body></html>", responseTimeInMs=293)
+2023-10-01 19:02:20,082 - WebsiteResponseLog(url=https://www.indiapost.gov.in/_layouts/15/dop.portal.tracking/trackconsignment.aspx, status=false, message=null, responseTimeInMs=2166)
+2023-10-01 19:02:23,096 - WebsiteResponseLog(url=http://www.foobar.com/login, status=false, message=403 Forbidden: "<html><head><title>Error 403 - Forbidden</title><head><body><h1>Error 403 - Forbidden</h1><p>You don't have permission to access the requested resource. Please contact the web site owner for further assistance.</p></body></html>", responseTimeInMs=203)
+2023-10-01 19:02:27,899 - WebsiteResponseLog(url=https://www.youtube, status=false, message=I/O error on GET request for "https://www.youtube": www.youtube, responseTimeInMs=2)
+2023-10-01 19:02:28,103 - WebsiteResponseLog(url=http://www.foobar.com/login, status=false, message=403 Forbidden: "<html><head><title>Error 403 - Forbidden</title><head><body><h1>Error 403 - Forbidden</h1><p>You don't have permission to access the requested resource. Please contact the web site owner for further assistance.</p></body></html>", responseTimeInMs=211)
+2023-10-01 19:02:28,110 - WebsiteResponseLog(url=http://www.example.com, status=true, message=null, responseTimeInMs=214)
+2023-10-01 19:02:33,088 - WebsiteResponseLog(url=http://www.foobar.com/login, status=false, message=403 Forbidden: "<html><head><title>Error 403 - Forbidden</title><head><body><h1>Error 403 - Forbidden</h1><p>You don't have permission to access the requested resource. Please contact the web site owner for further assistance.</p></body></html>", responseTimeInMs=196)
+2023-10-01 19:02:37,903 - WebsiteResponseLog(url=https://www.youtube, status=false, message=I/O error on GET request for "https://www.youtube": www.youtube, responseTimeInMs=3)
+2023-10-01 19:02:38,092 - WebsiteResponseLog(url=http://www.foobar.com/login, status=false, message=403 Forbidden: "<html><head><title>Error 403 - Forbidden</title><head><body><h1>Error 403 - Forbidden</h1><p>You don't have permission to access the requested resource. Please contact the web site owner for further assistance.</p></body></html>", responseTimeInMs=206)
+2023-10-01 19:02:38,110 - WebsiteResponseLog(url=http://www.example.com, status=true, message=null, responseTimeInMs=211)
+2023-10-01 19:02:39,952 - WebsiteResponseLog(url=https://www.indiapost.gov.in/_layouts/15/dop.portal.tracking/trackconsignment.aspx, status=false, message=null, responseTimeInMs=2053)
+2023-10-01 19:05:27,515 - Website Response Log: 
+URL: https://www.youtube
+Status: false
+Message: I/O error on GET request for "https://www.youtube": www.youtube
+Response Time (ms): 271
+
+2023-10-01 19:05:27,537 - Website Response Log: 
+URL: http://www.example.com
+Status: true
+Message: null
+Response Time (ms): 295
+
+2023-10-01 19:05:27,542 - Website Response Log: 
+URL: http://www.foobar.com/login
+Status: false
+Message: 403 Forbidden: "<html><head><title>Error 403 - Forbidden</title><head><body><h1>Error 403 - Forbidden</h1><p>You don't have permission to access the requested resource. Please contact the web site owner for further assistance.</p></body></html>"
+Response Time (ms): 300
+
+2023-10-01 19:05:29,722 - Website Response Log: 
+URL: https://www.indiapost.gov.in/_layouts/15/dop.portal.tracking/trackconsignment.aspx
+Status: false
+Message: null
+Response Time (ms): 2476
+
+2023-10-01 19:05:32,417 - Website Response Log: 
+URL: http://www.foobar.com/login
+Status: false
+Message: 403 Forbidden: "<html><head><title>Error 403 - Forbidden</title><head><body><h1>Error 403 - Forbidden</h1><p>You don't have permission to access the requested resource. Please contact the web site owner for further assistance.</p></body></html>"
+Response Time (ms): 212
+
+2023-10-01 19:05:37,224 - Website Response Log: 
+URL: https://www.youtube
+Status: false
+Message: I/O error on GET request for "https://www.youtube": www.youtube
+Response Time (ms): 3
+
+2023-10-01 19:05:37,401 - Website Response Log: 
+URL: http://www.foobar.com/login
+Status: false
+Message: 403 Forbidden: "<html><head><title>Error 403 - Forbidden</title><head><body><h1>Error 403 - Forbidden</h1><p>You don't have permission to access the requested resource. Please contact the web site owner for further assistance.</p></body></html>"
+Response Time (ms): 196
+
+2023-10-01 19:05:37,425 - Website Response Log: 
+URL: http://www.example.com
+Status: true
+Message: null
+Response Time (ms): 204
+
+2023-10-01 19:05:42,407 - Website Response Log: 
+URL: http://www.foobar.com/login
+Status: false
+Message: 403 Forbidden: "<html><head><title>Error 403 - Forbidden</title><head><body><h1>Error 403 - Forbidden</h1><p>You don't have permission to access the requested resource. Please contact the web site owner for further assistance.</p></body></html>"
+Response Time (ms): 202
+
+2023-10-01 19:05:47,227 - Website Response Log: 
+URL: https://www.youtube
+Status: false
+Message: I/O error on GET request for "https://www.youtube": www.youtube
+Response Time (ms): 3
+
+2023-10-01 19:05:47,406 - Website Response Log: 
+URL: http://www.foobar.com/login
+Status: false
+Message: 403 Forbidden: "<html><head><title>Error 403 - Forbidden</title><head><body><h1>Error 403 - Forbidden</h1><p>You don't have permission to access the requested resource. Please contact the web site owner for further assistance.</p></body></html>"
+Response Time (ms): 201
+
+2023-10-01 19:05:47,431 - Website Response Log: 
+URL: http://www.example.com
+Status: true
+Message: null
+Response Time (ms): 208
+
+2023-10-01 19:05:49,285 - Website Response Log: 
+URL: https://www.indiapost.gov.in/_layouts/15/dop.portal.tracking/trackconsignment.aspx
+Status: false
+Message: null
+Response Time (ms): 2060
+
+2023-10-01 19:05:52,412 - Website Response Log: 
+URL: http://www.foobar.com/login
+Status: false
+Message: 403 Forbidden: "<html><head><title>Error 403 - Forbidden</title><head><body><h1>Error 403 - Forbidden</h1><p>You don't have permission to access the requested resource. Please contact the web site owner for further assistance.</p></body></html>"
+Response Time (ms): 209
+
+2023-10-01 19:06:04,043 - **************************************Website Response Log: 
+URL: https://www.youtube
+Status: false
+Message: I/O error on GET request for "https://www.youtube": www.youtube
+Response Time (ms): 250
+**************************************
+
+2023-10-01 19:06:04,075 - **************************************Website Response Log: 
+URL: http://www.foobar.com/login
+Status: false
+Message: 403 Forbidden: "<html><head><title>Error 403 - Forbidden</title><head><body><h1>Error 403 - Forbidden</h1><p>You don't have permission to access the requested resource. Please contact the web site owner for further assistance.</p></body></html>"
+Response Time (ms): 283
+**************************************
+
+2023-10-01 19:06:04,075 - **************************************Website Response Log: 
+URL: http://www.example.com
+Status: true
+Message: null
+Response Time (ms): 283
+**************************************
+
+2023-10-01 19:06:06,902 - **************************************Website Response Log: 
+URL: https://www.indiapost.gov.in/_layouts/15/dop.portal.tracking/trackconsignment.aspx
+Status: false
+Message: null
+Response Time (ms): 3107
+**************************************
+
+2023-10-01 19:06:08,973 - **************************************Website Response Log: 
+URL: http://www.foobar.com/login
+Status: false
+Message: 403 Forbidden: "<html><head><title>Error 403 - Forbidden</title><head><body><h1>Error 403 - Forbidden</h1><p>You don't have permission to access the requested resource. Please contact the web site owner for further assistance.</p></body></html>"
+Response Time (ms): 209
+**************************************
+
+2023-10-01 19:06:13,776 - **************************************Website Response Log: 
+URL: https://www.youtube
+Status: false
+Message: I/O error on GET request for "https://www.youtube": www.youtube
+Response Time (ms): 2
+**************************************
+
+2023-10-01 19:06:13,982 - **************************************Website Response Log: 
+URL: http://www.foobar.com/login
+Status: false
+Message: 403 Forbidden: "<html><head><title>Error 403 - Forbidden</title><head><body><h1>Error 403 - Forbidden</h1><p>You don't have permission to access the requested resource. Please contact the web site owner for further assistance.</p></body></html>"
+Response Time (ms): 219
+**************************************
+
+2023-10-01 19:06:13,985 - **************************************Website Response Log: 
+URL: http://www.example.com
+Status: true
+Message: null
+Response Time (ms): 211
+**************************************
+
+2023-10-01 19:06:18,969 - **************************************Website Response Log: 
+URL: http://www.foobar.com/login
+Status: false
+Message: 403 Forbidden: "<html><head><title>Error 403 - Forbidden</title><head><body><h1>Error 403 - Forbidden</h1><p>You don't have permission to access the requested resource. Please contact the web site owner for further assistance.</p></body></html>"
+Response Time (ms): 205
+**************************************
+
+2023-10-01 19:06:23,780 - **************************************Website Response Log: 
+URL: https://www.youtube
+Status: false
+Message: I/O error on GET request for "https://www.youtube": www.youtube
+Response Time (ms): 2
+**************************************
+
+2023-10-01 19:06:23,975 - **************************************Website Response Log: 
+URL: http://www.foobar.com/login
+Status: false
+Message: 403 Forbidden: "<html><head><title>Error 403 - Forbidden</title><head><body><h1>Error 403 - Forbidden</h1><p>You don't have permission to access the requested resource. Please contact the web site owner for further assistance.</p></body></html>"
+Response Time (ms): 213
+**************************************
+
+2023-10-01 19:06:23,994 - **************************************Website Response Log: 
+URL: http://www.example.com
+Status: true
+Message: null
+Response Time (ms): 217
+**************************************
+
+2023-10-01 19:06:25,658 - **************************************Website Response Log: 
+URL: https://www.indiapost.gov.in/_layouts/15/dop.portal.tracking/trackconsignment.aspx
+Status: false
+Message: null
+Response Time (ms): 1879
+**************************************
+
+2023-10-01 19:06:28,977 - **************************************Website Response Log: 
+URL: http://www.foobar.com/login
+Status: false
+Message: 403 Forbidden: "<html><head><title>Error 403 - Forbidden</title><head><body><h1>Error 403 - Forbidden</h1><p>You don't have permission to access the requested resource. Please contact the web site owner for further assistance.</p></body></html>"
+Response Time (ms): 212
+**************************************
+
+2023-10-01 19:06:33,778 - **************************************Website Response Log: 
+URL: https://www.youtube
+Status: false
+Message: I/O error on GET request for "https://www.youtube": www.youtube
+Response Time (ms): 2
+**************************************
+
+2023-10-01 19:06:33,986 - **************************************Website Response Log: 
+URL: http://www.foobar.com/login
+Status: false
+Message: 403 Forbidden: "<html><head><title>Error 403 - Forbidden</title><head><body><h1>Error 403 - Forbidden</h1><p>You don't have permission to access the requested resource. Please contact the web site owner for further assistance.</p></body></html>"
+Response Time (ms): 221
+**************************************
+
+2023-10-01 19:06:33,989 - **************************************Website Response Log: 
+URL: http://www.example.com
+Status: true
+Message: null
+Response Time (ms): 213
+**************************************
+
+2023-10-01 19:06:38,972 - **************************************Website Response Log: 
+URL: http://www.foobar.com/login
+Status: false
+Message: 403 Forbidden: "<html><head><title>Error 403 - Forbidden</title><head><body><h1>Error 403 - Forbidden</h1><p>You don't have permission to access the requested resource. Please contact the web site owner for further assistance.</p></body></html>"
+Response Time (ms): 208
+**************************************
+
+2023-10-01 19:06:43,779 - **************************************Website Response Log: 
+URL: https://www.youtube
+Status: false
+Message: I/O error on GET request for "https://www.youtube": www.youtube
+Response Time (ms): 4
+**************************************
+
+2023-10-01 19:06:43,965 - **************************************Website Response Log: 
+URL: http://www.foobar.com/login
+Status: false
+Message: 403 Forbidden: "<html><head><title>Error 403 - Forbidden</title><head><body><h1>Error 403 - Forbidden</h1><p>You don't have permission to access the requested resource. Please contact the web site owner for further assistance.</p></body></html>"
+Response Time (ms): 198
+**************************************
+
+2023-10-01 19:06:43,995 - **************************************Website Response Log: 
+URL: http://www.example.com
+Status: true
+Message: null
+Response Time (ms): 220
+**************************************
+
+2023-10-01 19:06:45,801 - **************************************Website Response Log: 
+URL: https://www.indiapost.gov.in/_layouts/15/dop.portal.tracking/trackconsignment.aspx
+Status: false
+Message: null
+Response Time (ms): 2025
+**************************************
+
+2023-10-01 19:06:49,074 - **************************************Website Response Log: 
+URL: http://www.foobar.com/login
+Status: false
+Message: 403 Forbidden: "<html><head><title>Error 403 - Forbidden</title><head><body><h1>Error 403 - Forbidden</h1><p>You don't have permission to access the requested resource. Please contact the web site owner for further assistance.</p></body></html>"
+Response Time (ms): 312
+**************************************
+
+2023-10-01 19:06:53,776 - **************************************Website Response Log: 
+URL: https://www.youtube
+Status: false
+Message: I/O error on GET request for "https://www.youtube": www.youtube
+Response Time (ms): 1
+**************************************
+
+2023-10-01 19:06:53,997 - **************************************Website Response Log: 
+URL: http://www.example.com
+Status: true
+Message: null
+Response Time (ms): 223
+**************************************
+
+2023-10-01 19:06:55,447 - **************************************Website Response Log: 
+URL: http://www.foobar.com/login
+Status: false
+Message: 403 Forbidden: "<html><head><title>Error 403 - Forbidden</title><head><body><h1>Error 403 - Forbidden</h1><p>You don't have permission to access the requested resource. Please contact the web site owner for further assistance.</p></body></html>"
+Response Time (ms): 1684
+**************************************
+
+2023-10-01 19:07:06,046 - 
+**************************************Website Response Log: 
+URL: https://www.youtube
+Status: false
+Message: I/O error on GET request for "https://www.youtube": www.youtube
+Response Time (ms): 277
+**************************************
+
+2023-10-01 19:07:06,063 - 
+**************************************Website Response Log: 
+URL: http://www.example.com
+Status: true
+Message: null
+Response Time (ms): 295
+**************************************
+
+2023-10-01 19:07:06,071 - 
+**************************************Website Response Log: 
+URL: http://www.foobar.com/login
+Status: false
+Message: 403 Forbidden: "<html><head><title>Error 403 - Forbidden</title><head><body><h1>Error 403 - Forbidden</h1><p>You don't have permission to access the requested resource. Please contact the web site owner for further assistance.</p></body></html>"
+Response Time (ms): 303
+**************************************
+
+2023-10-01 19:07:10,735 - 
+**************************************Website Response Log: 
+URL: https://www.indiapost.gov.in/_layouts/15/dop.portal.tracking/trackconsignment.aspx
+Status: false
+Message: null
+Response Time (ms): 4963
+**************************************
+
+2023-10-01 19:07:10,929 - 
+**************************************Website Response Log: 
+URL: http://www.foobar.com/login
+Status: false
+Message: 403 Forbidden: "<html><head><title>Error 403 - Forbidden</title><head><body><h1>Error 403 - Forbidden</h1><p>You don't have permission to access the requested resource. Please contact the web site owner for further assistance.</p></body></html>"
+Response Time (ms): 208
+**************************************
+
+2023-10-01 19:07:15,752 - 
+**************************************Website Response Log: 
+URL: https://www.youtube
+Status: false
+Message: I/O error on GET request for "https://www.youtube": www.youtube
+Response Time (ms): 2
+**************************************
+
+2023-10-01 19:07:15,941 - 
+**************************************Website Response Log: 
+URL: http://www.foobar.com/login
+Status: false
+Message: 403 Forbidden: "<html><head><title>Error 403 - Forbidden</title><head><body><h1>Error 403 - Forbidden</h1><p>You don't have permission to access the requested resource. Please contact the web site owner for further assistance.</p></body></html>"
+Response Time (ms): 221
+**************************************
+
+2023-10-01 19:07:15,977 - 
+**************************************Website Response Log: 
+URL: http://www.example.com
+Status: true
+Message: null
+Response Time (ms): 227
+**************************************
+
+2023-10-01 19:07:27,340 - 
+**************************************
+Website Response Log: 
+URL: https://www.youtube
+Status: false
+Message: I/O error on GET request for "https://www.youtube": www.youtube
+Response Time (ms): 242
+**************************************
+
+2023-10-01 19:07:27,386 - 
+**************************************
+Website Response Log: 
+URL: http://www.example.com
+Status: true
+Message: null
+Response Time (ms): 290
+**************************************
+
+2023-10-01 19:07:27,390 - 
+**************************************
+Website Response Log: 
+URL: http://www.foobar.com/login
+Status: false
+Message: 403 Forbidden: "<html><head><title>Error 403 - Forbidden</title><head><body><h1>Error 403 - Forbidden</h1><p>You don't have permission to access the requested resource. Please contact the web site owner for further assistance.</p></body></html>"
+Response Time (ms): 294
+**************************************
+
+2023-10-01 19:07:29,567 - 
+**************************************
+Website Response Log: 
+URL: https://www.indiapost.gov.in/_layouts/15/dop.portal.tracking/trackconsignment.aspx
+Status: false
+Message: null
+Response Time (ms): 2466
+**************************************
+
+2023-10-01 19:07:32,297 - 
+**************************************
+Website Response Log: 
+URL: http://www.foobar.com/login
+Status: false
+Message: 403 Forbidden: "<html><head><title>Error 403 - Forbidden</title><head><body><h1>Error 403 - Forbidden</h1><p>You don't have permission to access the requested resource. Please contact the web site owner for further assistance.</p></body></html>"
+Response Time (ms): 210
+**************************************
+
+2023-10-01 19:07:37,091 - 
+**************************************
+Website Response Log: 
+URL: https://www.youtube
+Status: false
+Message: I/O error on GET request for "https://www.youtube": www.youtube
+Response Time (ms): 1
+**************************************
+
+2023-10-01 19:07:37,295 - 
+**************************************
+Website Response Log: 
+URL: http://www.foobar.com/login
+Status: false
+Message: 403 Forbidden: "<html><head><title>Error 403 - Forbidden</title><head><body><h1>Error 403 - Forbidden</h1><p>You don't have permission to access the requested resource. Please contact the web site owner for further assistance.</p></body></html>"
+Response Time (ms): 209
+**************************************
+
+2023-10-01 19:07:37,302 - 
+**************************************
+Website Response Log: 
+URL: http://www.example.com
+Status: true
+Message: null
+Response Time (ms): 212
+**************************************
+
+2023-10-01 19:07:42,299 - 
+**************************************
+Website Response Log: 
+URL: http://www.foobar.com/login
+Status: false
+Message: 403 Forbidden: "<html><head><title>Error 403 - Forbidden</title><head><body><h1>Error 403 - Forbidden</h1><p>You don't have permission to access the requested resource. Please contact the web site owner for further assistance.</p></body></html>"
+Response Time (ms): 213
+**************************************
+
+2023-10-01 19:07:47,095 - 
+**************************************
+Website Response Log: 
+URL: https://www.youtube
+Status: false
+Message: I/O error on GET request for "https://www.youtube": www.youtube
+Response Time (ms): 4
+**************************************
+
+2023-10-01 19:07:47,283 - 
+**************************************
+Website Response Log: 
+URL: http://www.foobar.com/login
+Status: false
+Message: 403 Forbidden: "<html><head><title>Error 403 - Forbidden</title><head><body><h1>Error 403 - Forbidden</h1><p>You don't have permission to access the requested resource. Please contact the web site owner for further assistance.</p></body></html>"
+Response Time (ms): 198
+**************************************
+
+2023-10-01 19:07:47,304 - 
+**************************************
+Website Response Log: 
+URL: http://www.example.com
+Status: true
+Message: null
+Response Time (ms): 213
+**************************************
+
+2023-10-01 19:07:49,092 - 
+**************************************
+Website Response Log: 
+URL: https://www.indiapost.gov.in/_layouts/15/dop.portal.tracking/trackconsignment.aspx
+Status: false
+Message: null
+Response Time (ms): 2001
+**************************************
+
+2023-10-01 19:07:52,311 - 
+**************************************
+Website Response Log: 
+URL: http://www.foobar.com/login
+Status: false
+Message: 403 Forbidden: "<html><head><title>Error 403 - Forbidden</title><head><body><h1>Error 403 - Forbidden</h1><p>You don't have permission to access the requested resource. Please contact the web site owner for further assistance.</p></body></html>"
+Response Time (ms): 224
+**************************************
+
+2023-10-01 19:08:05,338 - 
+**************************************
+* Website Response Log: 
+* URL: https://www.youtube
+* Status: false
+* Message: I/O error on GET request for "https://www.youtube": www.youtube
+* Response Time (ms): 237
+**************************************
+
+2023-10-01 19:08:05,451 - 
+**************************************
+* Website Response Log: 
+* URL: http://www.example.com
+* Status: true
+* Message: null
+* Response Time (ms): 351
+**************************************
+
+2023-10-01 19:08:05,452 - 
+**************************************
+* Website Response Log: 
+* URL: http://www.foobar.com/login
+* Status: false
+* Message: 403 Forbidden: "<html><head><title>Error 403 - Forbidden</title><head><body><h1>Error 403 - Forbidden</h1><p>You don't have permission to access the requested resource. Please contact the web site owner for further assistance.</p></body></html>"
+* Response Time (ms): 352
+**************************************
+
+2023-10-01 19:08:07,445 - 
+**************************************
+* Website Response Log: 
+* URL: https://www.indiapost.gov.in/_layouts/15/dop.portal.tracking/trackconsignment.aspx
+* Status: false
+* Message: null
+* Response Time (ms): 2341
+**************************************
+
+2023-10-01 19:08:10,288 - 
+**************************************
+* Website Response Log: 
+* URL: http://www.foobar.com/login
+* Status: false
+* Message: 403 Forbidden: "<html><head><title>Error 403 - Forbidden</title><head><body><h1>Error 403 - Forbidden</h1><p>You don't have permission to access the requested resource. Please contact the web site owner for further assistance.</p></body></html>"
+* Response Time (ms): 210
+**************************************
+
+2023-10-01 19:08:15,085 - 
+**************************************
+* Website Response Log: 
+* URL: https://www.youtube
+* Status: false
+* Message: I/O error on GET request for "https://www.youtube": www.youtube
+* Response Time (ms): 1
+**************************************
+
+2023-10-01 19:08:15,399 - 
+**************************************
+* Website Response Log: 
+* URL: http://www.foobar.com/login
+* Status: false
+* Message: 403 Forbidden: "<html><head><title>Error 403 - Forbidden</title><head><body><h1>Error 403 - Forbidden</h1><p>You don't have permission to access the requested resource. Please contact the web site owner for further assistance.</p></body></html>"
+* Response Time (ms): 321
+**************************************
+
+2023-10-01 19:08:15,405 - 
+**************************************
+* Website Response Log: 
+* URL: http://www.example.com
+* Status: true
+* Message: null
+* Response Time (ms): 321
+**************************************
+
+2023-10-01 19:08:20,282 - 
+**************************************
+* Website Response Log: 
+* URL: http://www.foobar.com/login
+* Status: false
+* Message: 403 Forbidden: "<html><head><title>Error 403 - Forbidden</title><head><body><h1>Error 403 - Forbidden</h1><p>You don't have permission to access the requested resource. Please contact the web site owner for further assistance.</p></body></html>"
+* Response Time (ms): 205
+**************************************
+
+2023-10-01 19:14:06,638 - 
+**************************************
+* Website Response Log: 
+* URL: http://www.example.com
+* Content Verification Status: true
+* Is Website Up: true
+* Message: null
+* Response Time (ms): 436
+**************************************
+
+2023-10-01 19:14:06,813 - 
+**************************************
+* Website Response Log: 
+* URL: http://www.foobar.com/login
+* Content Verification Status: false
+* Is Website Up: false
+* Message: 403 Forbidden: "<html><head><title>Error 403 - Forbidden</title><head><body><h1>Error 403 - Forbidden</h1><p>You don't have permission to access the requested resource. Please contact the web site owner for further assistance.</p></body></html>"
+* Response Time (ms): 613
+**************************************
+
+2023-10-01 19:14:06,846 - 
+**************************************
+* Website Response Log: 
+* URL: https://www.youtube
+* Content Verification Status: false
+* Is Website Up: false
+* Message: I/O error on GET request for "https://www.youtube": www.youtube
+* Response Time (ms): 646
+**************************************
+
+2023-10-01 19:14:20,796 - 
+**************************************
+* Website Response Log: 
+* URL: https://www.youtube
+* Content Verification Status: false
+* Is Website Up: false
+* Message: I/O error on GET request for "https://www.youtube": www.youtube
+* Response Time (ms): 228
+**************************************
+
+2023-10-01 19:14:20,915 - 
+**************************************
+* Website Response Log: 
+* URL: http://www.foobar.com/login
+* Content Verification Status: false
+* Is Website Up: false
+* Message: 403 Forbidden: "<html><head><title>Error 403 - Forbidden</title><head><body><h1>Error 403 - Forbidden</h1><p>You don't have permission to access the requested resource. Please contact the web site owner for further assistance.</p></body></html>"
+* Response Time (ms): 348
+**************************************
+
+2023-10-01 19:14:20,915 - 
+**************************************
+* Website Response Log: 
+* URL: http://www.example.com
+* Content Verification Status: true
+* Is Website Up: true
+* Message: null
+* Response Time (ms): 348
+**************************************
+
+2023-10-01 19:14:22,651 - 
+**************************************
+* Website Response Log: 
+* URL: https://www.indiapost.gov.in/_layouts/15/dop.portal.tracking/trackconsignment.aspx
+* Content Verification Status: false
+* Is Website Up: true
+* Message: null
+* Response Time (ms): 2080
+**************************************
+
+2023-10-01 19:14:25,746 - 
+**************************************
+* Website Response Log: 
+* URL: http://www.foobar.com/login
+* Content Verification Status: false
+* Is Website Up: false
+* Message: 403 Forbidden: "<html><head><title>Error 403 - Forbidden</title><head><body><h1>Error 403 - Forbidden</h1><p>You don't have permission to access the requested resource. Please contact the web site owner for further assistance.</p></body></html>"
+* Response Time (ms): 204
+**************************************
+
+2023-10-01 19:14:30,553 - 
+**************************************
+* Website Response Log: 
+* URL: https://www.youtube
+* Content Verification Status: false
+* Is Website Up: false
+* Message: I/O error on GET request for "https://www.youtube": www.youtube
+* Response Time (ms): 1
+**************************************
+
+2023-10-01 19:14:30,752 - 
+**************************************
+* Website Response Log: 
+* URL: http://www.foobar.com/login
+* Content Verification Status: false
+* Is Website Up: false
+* Message: 403 Forbidden: "<html><head><title>Error 403 - Forbidden</title><head><body><h1>Error 403 - Forbidden</h1><p>You don't have permission to access the requested resource. Please contact the web site owner for further assistance.</p></body></html>"
+* Response Time (ms): 210
+**************************************
+
+2023-10-01 19:14:30,760 - 
+**************************************
+* Website Response Log: 
+* URL: http://www.example.com
+* Content Verification Status: true
+* Is Website Up: true
+* Message: null
+* Response Time (ms): 208
+**************************************
+
+2023-10-01 19:14:35,751 - 
+**************************************
+* Website Response Log: 
+* URL: http://www.foobar.com/login
+* Content Verification Status: false
+* Is Website Up: false
+* Message: 403 Forbidden: "<html><head><title>Error 403 - Forbidden</title><head><body><h1>Error 403 - Forbidden</h1><p>You don't have permission to access the requested resource. Please contact the web site owner for further assistance.</p></body></html>"
+* Response Time (ms): 208
+**************************************
+
+2023-10-01 19:14:40,556 - 
+**************************************
+* Website Response Log: 
+* URL: https://www.youtube
+* Content Verification Status: false
+* Is Website Up: false
+* Message: I/O error on GET request for "https://www.youtube": www.youtube
+* Response Time (ms): 4
+**************************************
+
+2023-10-01 19:14:40,745 - 
+**************************************
+* Website Response Log: 
+* URL: http://www.foobar.com/login
+* Content Verification Status: false
+* Is Website Up: false
+* Message: 403 Forbidden: "<html><head><title>Error 403 - Forbidden</title><head><body><h1>Error 403 - Forbidden</h1><p>You don't have permission to access the requested resource. Please contact the web site owner for further assistance.</p></body></html>"
+* Response Time (ms): 204
+**************************************
+
+2023-10-01 19:14:40,757 - 
+**************************************
+* Website Response Log: 
+* URL: http://www.example.com
+* Content Verification Status: true
+* Is Website Up: true
+* Message: null
+* Response Time (ms): 205
+**************************************
+
+2023-10-01 19:14:42,455 - 
+**************************************
+* Website Response Log: 
+* URL: https://www.indiapost.gov.in/_layouts/15/dop.portal.tracking/trackconsignment.aspx
+* Content Verification Status: false
+* Is Website Up: true
+* Message: null
+* Response Time (ms): 1902
+**************************************
+
+2023-10-01 19:14:45,747 - 
+**************************************
+* Website Response Log: 
+* URL: http://www.foobar.com/login
+* Content Verification Status: false
+* Is Website Up: false
+* Message: 403 Forbidden: "<html><head><title>Error 403 - Forbidden</title><head><body><h1>Error 403 - Forbidden</h1><p>You don't have permission to access the requested resource. Please contact the web site owner for further assistance.</p></body></html>"
+* Response Time (ms): 203
+**************************************
+
+2023-10-01 19:14:50,553 - 
+**************************************
+* Website Response Log: 
+* URL: https://www.youtube
+* Content Verification Status: false
+* Is Website Up: false
+* Message: I/O error on GET request for "https://www.youtube": www.youtube
+* Response Time (ms): 1
+**************************************
+
+2023-10-01 19:14:50,736 - 
+**************************************
+* Website Response Log: 
+* URL: http://www.foobar.com/login
+* Content Verification Status: false
+* Is Website Up: false
+* Message: 403 Forbidden: "<html><head><title>Error 403 - Forbidden</title><head><body><h1>Error 403 - Forbidden</h1><p>You don't have permission to access the requested resource. Please contact the web site owner for further assistance.</p></body></html>"
+* Response Time (ms): 195
+**************************************
+
+2023-10-01 19:14:50,762 - 
+**************************************
+* Website Response Log: 
+* URL: http://www.example.com
+* Content Verification Status: true
+* Is Website Up: true
+* Message: null
+* Response Time (ms): 211
+**************************************
+
+2023-10-01 19:14:55,741 - 
+**************************************
+* Website Response Log: 
+* URL: http://www.foobar.com/login
+* Content Verification Status: false
+* Is Website Up: false
+* Message: 403 Forbidden: "<html><head><title>Error 403 - Forbidden</title><head><body><h1>Error 403 - Forbidden</h1><p>You don't have permission to access the requested resource. Please contact the web site owner for further assistance.</p></body></html>"
+* Response Time (ms): 200
+**************************************
+
+2023-10-01 19:15:00,554 - 
+**************************************
+* Website Response Log: 
+* URL: https://www.youtube
+* Content Verification Status: false
+* Is Website Up: false
+* Message: I/O error on GET request for "https://www.youtube": www.youtube
+* Response Time (ms): 3
+**************************************
+
+2023-10-01 19:15:00,745 - 
+**************************************
+* Website Response Log: 
+* URL: http://www.foobar.com/login
+* Content Verification Status: false
+* Is Website Up: false
+* Message: 403 Forbidden: "<html><head><title>Error 403 - Forbidden</title><head><body><h1>Error 403 - Forbidden</h1><p>You don't have permission to access the requested resource. Please contact the web site owner for further assistance.</p></body></html>"
+* Response Time (ms): 201
+**************************************
+
+2023-10-01 19:15:00,765 - 
+**************************************
+* Website Response Log: 
+* URL: http://www.example.com
+* Content Verification Status: true
+* Is Website Up: true
+* Message: null
+* Response Time (ms): 214
+**************************************
+
+2023-10-01 19:15:02,203 - 
+**************************************
+* Website Response Log: 
+* URL: https://www.indiapost.gov.in/_layouts/15/dop.portal.tracking/trackconsignment.aspx
+* Content Verification Status: false
+* Is Website Up: true
+* Message: null
+* Response Time (ms): 1650
+**************************************
+
+2023-10-01 19:15:05,735 - 
+**************************************
+* Website Response Log: 
+* URL: http://www.foobar.com/login
+* Content Verification Status: false
+* Is Website Up: false
+* Message: 403 Forbidden: "<html><head><title>Error 403 - Forbidden</title><head><body><h1>Error 403 - Forbidden</h1><p>You don't have permission to access the requested resource. Please contact the web site owner for further assistance.</p></body></html>"
+* Response Time (ms): 194
+**************************************
+
+2023-10-01 19:15:10,553 - 
+**************************************
+* Website Response Log: 
+* URL: https://www.youtube
+* Content Verification Status: false
+* Is Website Up: false
+* Message: I/O error on GET request for "https://www.youtube": www.youtube
+* Response Time (ms): 1
+**************************************
+
+2023-10-01 19:15:10,746 - 
+**************************************
+* Website Response Log: 
+* URL: http://www.foobar.com/login
+* Content Verification Status: false
+* Is Website Up: false
+* Message: 403 Forbidden: "<html><head><title>Error 403 - Forbidden</title><head><body><h1>Error 403 - Forbidden</h1><p>You don't have permission to access the requested resource. Please contact the web site owner for further assistance.</p></body></html>"
+* Response Time (ms): 203
+**************************************
+
+2023-10-01 19:15:10,767 - 
+**************************************
+* Website Response Log: 
+* URL: http://www.example.com
+* Content Verification Status: true
+* Is Website Up: true
+* Message: null
+* Response Time (ms): 215
+**************************************
+
+2023-10-01 19:15:15,747 - 
+**************************************
+* Website Response Log: 
+* URL: http://www.foobar.com/login
+* Content Verification Status: false
+* Is Website Up: false
+* Message: 403 Forbidden: "<html><head><title>Error 403 - Forbidden</title><head><body><h1>Error 403 - Forbidden</h1><p>You don't have permission to access the requested resource. Please contact the web site owner for further assistance.</p></body></html>"
+* Response Time (ms): 205
+**************************************
+
+2023-10-01 19:15:20,555 - 
+**************************************
+* Website Response Log: 
+* URL: https://www.youtube
+* Content Verification Status: false
+* Is Website Up: false
+* Message: I/O error on GET request for "https://www.youtube": www.youtube
+* Response Time (ms): 3
+**************************************
+
+2023-10-01 19:15:20,745 - 
+**************************************
+* Website Response Log: 
+* URL: http://www.foobar.com/login
+* Content Verification Status: false
+* Is Website Up: false
+* Message: 403 Forbidden: "<html><head><title>Error 403 - Forbidden</title><head><body><h1>Error 403 - Forbidden</h1><p>You don't have permission to access the requested resource. Please contact the web site owner for further assistance.</p></body></html>"
+* Response Time (ms): 203
+**************************************
+
+2023-10-01 19:15:20,773 - 
+**************************************
+* Website Response Log: 
+* URL: http://www.example.com
+* Content Verification Status: true
+* Is Website Up: true
+* Message: null
+* Response Time (ms): 221
+**************************************
+
+2023-10-01 19:15:22,500 - 
+**************************************
+* Website Response Log: 
+* URL: https://www.indiapost.gov.in/_layouts/15/dop.portal.tracking/trackconsignment.aspx
+* Content Verification Status: false
+* Is Website Up: true
+* Message: null
+* Response Time (ms): 1947
+**************************************
+
+2023-10-01 19:15:25,744 - 
+**************************************
+* Website Response Log: 
+* URL: http://www.foobar.com/login
+* Content Verification Status: false
+* Is Website Up: false
+* Message: 403 Forbidden: "<html><head><title>Error 403 - Forbidden</title><head><body><h1>Error 403 - Forbidden</h1><p>You don't have permission to access the requested resource. Please contact the web site owner for further assistance.</p></body></html>"
+* Response Time (ms): 201
+**************************************
+
+2023-10-01 19:15:30,553 - 
+**************************************
+* Website Response Log: 
+* URL: https://www.youtube
+* Content Verification Status: false
+* Is Website Up: false
+* Message: I/O error on GET request for "https://www.youtube": www.youtube
+* Response Time (ms): 1
+**************************************
+
+2023-10-01 19:15:30,752 - 
+**************************************
+* Website Response Log: 
+* URL: http://www.foobar.com/login
+* Content Verification Status: false
+* Is Website Up: false
+* Message: 403 Forbidden: "<html><head><title>Error 403 - Forbidden</title><head><body><h1>Error 403 - Forbidden</h1><p>You don't have permission to access the requested resource. Please contact the web site owner for further assistance.</p></body></html>"
+* Response Time (ms): 210
+**************************************
+
+2023-10-01 19:15:30,760 - 
+**************************************
+* Website Response Log: 
+* URL: http://www.example.com
+* Content Verification Status: true
+* Is Website Up: true
+* Message: null
+* Response Time (ms): 208
+**************************************
+
+2023-10-01 19:15:35,738 - 
+**************************************
+* Website Response Log: 
+* URL: http://www.foobar.com/login
+* Content Verification Status: false
+* Is Website Up: false
+* Message: 403 Forbidden: "<html><head><title>Error 403 - Forbidden</title><head><body><h1>Error 403 - Forbidden</h1><p>You don't have permission to access the requested resource. Please contact the web site owner for further assistance.</p></body></html>"
+* Response Time (ms): 195
+**************************************
+
+2023-10-01 19:15:35,793 - 
+**************************************
+* Website Response Log: 
+* URL: https://this-website-does-not-exist.com
+* Content Verification Status: false
+* Is Website Up: false
+* Message: I/O error on GET request for "https://this-website-does-not-exist.com": Operation timed out
+* Response Time (ms): 75225
+**************************************
+
+2023-10-01 19:15:40,552 - 
+**************************************
+* Website Response Log: 
+* URL: https://www.youtube
+* Content Verification Status: false
+* Is Website Up: false
+* Message: I/O error on GET request for "https://www.youtube": www.youtube
+* Response Time (ms): 2
+**************************************
+
+2023-10-01 19:15:40,750 - 
+**************************************
+* Website Response Log: 
+* URL: http://www.foobar.com/login
+* Content Verification Status: false
+* Is Website Up: false
+* Message: 403 Forbidden: "<html><head><title>Error 403 - Forbidden</title><head><body><h1>Error 403 - Forbidden</h1><p>You don't have permission to access the requested resource. Please contact the web site owner for further assistance.</p></body></html>"
+* Response Time (ms): 211
+**************************************
+
+2023-10-01 19:15:40,781 - 
+**************************************
+* Website Response Log: 
+* URL: http://www.example.com
+* Content Verification Status: true
+* Is Website Up: true
+* Message: null
+* Response Time (ms): 231
+**************************************
+
+2023-10-01 19:15:42,626 - 
+**************************************
+* Website Response Log: 
+* URL: https://www.indiapost.gov.in/_layouts/15/dop.portal.tracking/trackconsignment.aspx
+* Content Verification Status: false
+* Is Website Up: true
+* Message: null
+* Response Time (ms): 2076
+**************************************
+
+2023-10-01 19:15:45,748 - 
+**************************************
+* Website Response Log: 
+* URL: http://www.foobar.com/login
+* Content Verification Status: false
+* Is Website Up: false
+* Message: 403 Forbidden: "<html><head><title>Error 403 - Forbidden</title><head><body><h1>Error 403 - Forbidden</h1><p>You don't have permission to access the requested resource. Please contact the web site owner for further assistance.</p></body></html>"
+* Response Time (ms): 206
+**************************************
+
+2023-10-01 19:15:50,555 - 
+**************************************
+* Website Response Log: 
+* URL: https://www.youtube
+* Content Verification Status: false
+* Is Website Up: false
+* Message: I/O error on GET request for "https://www.youtube": www.youtube
+* Response Time (ms): 2
+**************************************
+
+2023-10-01 19:15:50,752 - 
+**************************************
+* Website Response Log: 
+* URL: http://www.foobar.com/login
+* Content Verification Status: false
+* Is Website Up: false
+* Message: 403 Forbidden: "<html><head><title>Error 403 - Forbidden</title><head><body><h1>Error 403 - Forbidden</h1><p>You don't have permission to access the requested resource. Please contact the web site owner for further assistance.</p></body></html>"
+* Response Time (ms): 211
+**************************************
+
+2023-10-01 19:15:50,757 - 
+**************************************
+* Website Response Log: 
+* URL: http://www.example.com
+* Content Verification Status: true
+* Is Website Up: true
+* Message: null
+* Response Time (ms): 205
+**************************************
+
+2023-10-01 19:15:55,750 - 
+**************************************
+* Website Response Log: 
+* URL: http://www.foobar.com/login
+* Content Verification Status: false
+* Is Website Up: false
+* Message: 403 Forbidden: "<html><head><title>Error 403 - Forbidden</title><head><body><h1>Error 403 - Forbidden</h1><p>You don't have permission to access the requested resource. Please contact the web site owner for further assistance.</p></body></html>"
+* Response Time (ms): 207
+**************************************
+
+2023-10-01 19:16:15,071 - 
+**************************************
+* Website Response Log: 
+* URL: http://www.example.com
+* Content Verification Status: true
+* Is Website Up: true
+* Message: Success
+* Response Time (ms): 339
+**************************************
+
+2023-10-01 19:16:15,079 - 
+**************************************
+* Website Response Log: 
+* URL: http://www.foobar.com/login
+* Content Verification Status: false
+* Is Website Up: false
+* Message: 403 Forbidden: "<html><head><title>Error 403 - Forbidden</title><head><body><h1>Error 403 - Forbidden</h1><p>You don't have permission to access the requested resource. Please contact the web site owner for further assistance.</p></body></html>"
+* Response Time (ms): 350
+**************************************
+
+2023-10-01 19:16:15,139 - 
+**************************************
+* Website Response Log: 
+* URL: https://www.youtube
+* Content Verification Status: false
+* Is Website Up: false
+* Message: I/O error on GET request for "https://www.youtube": www.youtube
+* Response Time (ms): 410
+**************************************
+
+2023-10-01 19:16:17,462 - 
+**************************************
+* Website Response Log: 
+* URL: https://www.indiapost.gov.in/_layouts/15/dop.portal.tracking/trackconsignment.aspx
+* Content Verification Status: false
+* Is Website Up: true
+* Message: Success
+* Response Time (ms): 2729
+**************************************
+
+2023-10-01 19:16:19,995 - 
+**************************************
+* Website Response Log: 
+* URL: http://www.foobar.com/login
+* Content Verification Status: false
+* Is Website Up: false
+* Message: 403 Forbidden: "<html><head><title>Error 403 - Forbidden</title><head><body><h1>Error 403 - Forbidden</h1><p>You don't have permission to access the requested resource. Please contact the web site owner for further assistance.</p></body></html>"
+* Response Time (ms): 307
+**************************************
+

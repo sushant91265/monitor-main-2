@@ -24,7 +24,7 @@
         <appender-ref ref="AllOtherAppender"/>
     </root>
 
-    <logger name="com.site.monitor.util.WebMonitorLogger" level="INFO">
+    <logger name="com.site.monitor.logger.WebsiteResponseLogger" level="INFO">
         <appender-ref ref="MyLogFileAppender"/>
     </logger>
 </configuration>
