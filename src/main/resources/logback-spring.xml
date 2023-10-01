@@ -1,0 +1,30 @@
+<configuration>
+    <appender name="CONSOLE" class="ch.qos.logback.core.ConsoleAppender">
+        <encoder>
+            <pattern>%d [%thread] %-5level %logger{35} - %msg%n</pattern>
+        </encoder>
+    </appender>
+
+    <appender name="MyLogFileAppender" class="ch.qos.logback.core.FileAppender">
+        <file>logs/website_status.log</file>
+        <encoder>
+            <pattern>%d - %msg%n</pattern>
+        </encoder>
+    </appender>
+
+    <appender name="AllOtherAppender" class="ch.qos.logback.core.FileAppender">
+        <file>logs/all_logs.log</file>
+        <encoder>
+            <pattern>%d [%thread] %-5level %logger{35} - %msg%n</pattern>
+        </encoder>
+    </appender>
+
+    <root level="INFO">
+        <appender-ref ref="CONSOLE"/>
+        <appender-ref ref="AllOtherAppender"/>
+    </root>
+
+    <logger name="com.site.monitor.util.WebMonitorLogger" level="INFO">
+        <appender-ref ref="MyLogFileAppender"/>
+    </logger>
+</configuration>

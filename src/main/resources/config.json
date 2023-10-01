@@ -1,0 +1,10 @@
+{
+  "websites": [
+    {
+      "id": "3",
+      "url": "https://www.youtube.com",
+      "content_requirement": "youtube"
+    }
+  ],
+  "default_check_interval_seconds": 10
+}
