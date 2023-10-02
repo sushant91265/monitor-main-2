@@ -11,6 +11,9 @@ import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
+/**
+ * WebsiteMonitoringService class starts schedulers for each website.
+ */
 @Slf4j
 @Service
 @RequiredArgsConstructor(onConstructor_ = @Autowired)
@@ -22,7 +25,7 @@ public class WebsiteMonitoringService {
     @PostConstruct
     public void postConstruct() {
         MonitorConfig monitorConfig = configurationReader.readConfiguration();
-        log.info("Websites to monitor: {}", monitorConfig.getWebsites());
+        log.debug("Websites to monitor: {}", monitorConfig.getWebsites());
 
         for (WebsiteConfig websiteConfig : monitorConfig.getWebsites()) {
             websiteMonitorScheduler.addJob(websiteConfig);

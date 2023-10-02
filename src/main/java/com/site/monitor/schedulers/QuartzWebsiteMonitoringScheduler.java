@@ -16,9 +16,9 @@ import java.util.concurrent.atomic.AtomicBoolean;
 @Component
 public class QuartzWebsiteMonitoringScheduler implements WebsiteMonitorScheduler {
 
-    private final SchedulerFactoryBean schedulerFactory;
+    private SchedulerFactoryBean schedulerFactory;
     private Scheduler scheduler;
-    private AtomicBoolean isRunning = new AtomicBoolean(false);
+    AtomicBoolean isRunning = new AtomicBoolean(false);
 
     public QuartzWebsiteMonitoringScheduler(@Autowired SchedulerFactoryBean schedulerFactory) throws SchedulerException {
         this.schedulerFactory = schedulerFactory;
@@ -36,7 +36,8 @@ public class QuartzWebsiteMonitoringScheduler implements WebsiteMonitorScheduler
     @Override
     public boolean start() {
         if (!this.isRunning.get()) {
-            log.info("Stating WebsiteMonitoringScheduler");
+            log.debug("Starting WebsiteMonitoringScheduler");
+            this.isRunning.set(true);
             this.scheduler.start();
             return true;
         }
@@ -48,7 +49,9 @@ public class QuartzWebsiteMonitoringScheduler implements WebsiteMonitorScheduler
     public boolean stop() {
         if (this.isRunning.get()) {
             try {
+                log.debug("Stopping WebsiteMonitoringScheduler");
                 this.scheduler.shutdown();
+                this.isRunning.set(false);
             } catch (SchedulerException e) {
                 throw new RuntimeException(e);
             }
@@ -60,10 +63,9 @@ public class QuartzWebsiteMonitoringScheduler implements WebsiteMonitorScheduler
 
     @Override
     public boolean addJob(WebsiteConfig websiteConfig) throws SchedulerException {
-        if (this.isRunning.equals(new AtomicBoolean(true))) {
-            throw new RuntimeException("Cannot add jobs to already running scheduler");
+        if (this.isRunning.get() == new AtomicBoolean(true).get()) {
+            throw new RuntimeException("Cannot add jobs to already running scheduler!");
         }
-
         JobDetail jobDetail = getJobDetail(websiteConfig);
         SimpleTrigger simpleTrigger = getTrigger(websiteConfig, jobDetail);
         scheduler.scheduleJob(jobDetail, simpleTrigger);

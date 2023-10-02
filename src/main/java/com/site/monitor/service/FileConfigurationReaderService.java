@@ -25,16 +25,15 @@ public class FileConfigurationReaderService implements ConfigurationReader {
     @Override
     public MonitorConfig readConfiguration() throws IOException  {
         MonitorConfig monitorConfig = objectMapper.readValue(new File(CONFIG_FILE_PATH), MonitorConfig.class);
-        if(monitorConfig == null) {
+        if(monitorConfig == null || monitorConfig.getWebsites() == null || monitorConfig.getWebsites().isEmpty()) {
             throw new RuntimeException("Error while reading configuration");
         }
         monitorConfig.getWebsites().forEach(config -> {
-            log.info("Checking config for website {}", monitorConfig.getDefaultCheckIntervalSeconds());
+            log.info("Checking config for website {}", config.getUrl());
             if(config.getCheckIntervalSeconds() <= 0){
                 config.setCheckIntervalSeconds(monitorConfig.getDefaultCheckIntervalSeconds());
             }
         });
-
         return monitorConfig;
     }
 }

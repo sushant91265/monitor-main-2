@@ -9,7 +9,7 @@
     {
       "id": "2",
       "url": "http://www.example.com",
-      "content_requirement": "Example Domain",
+      "content_requirement": "",
       "check_interval_seconds": 10
     },
     {
@@ -28,6 +28,12 @@
       "url": "https://this-website-does-not-exist.com",
       "content_requirement": "Can't connect",
       "check_interval_seconds": 30
+    },
+    {
+      "id": "6",
+      "url": "https://www.google.com",
+      "content_requirement": "",
+      "check_interval_seconds": 10
     }
   ],
   "default_check_interval_seconds": 10
